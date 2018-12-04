@@ -1,0 +1,30 @@
+.container {
+    height: 60vh;
+    max-height: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+
+    .h1:hover {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.pagination {
+    justify-content: center;
+
+    .page-link {
+        color: $primary;
+    }
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+
+    &:hover {
+        color: inherit;
+    }
+}
